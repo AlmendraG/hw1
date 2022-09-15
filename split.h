@@ -7,9 +7,7 @@ struct Node
   int value;
   Node* next;
 
-  /**
-   * Initializing constructor
-   */
+  //constructor 
   Node(int v, Node* n)
   {
     value = v;
@@ -18,5 +16,11 @@ struct Node
 };
 
 void split(Node*& in, Node*& odds, Node*& evens);
-// WRITE YOUR CODE HERE
+void move (Node **destiny, Node **source);
+void append (Node *&head, int n);
+void printList(Node* head);
+
+
+
+
 #endif
